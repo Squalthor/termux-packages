@@ -1,0 +1,10 @@
+prefix=/data/data/com.termux/files/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: intl
+Description: GNU libintl gettext implementation
+Version: 1.0
+Libs: -L${libdir} -lintl
+Cflags:
